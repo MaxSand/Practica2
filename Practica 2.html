@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name ="description" content="Practica 2"/>
+    <meta name ="keywords" content="HTML5,CSS3,JavaScript"/>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div>
+    <form action="datos.html" method="GET">
+    <fieldset>
+      </br></br>
+      <fieldset>
+        <legend>Laboral</legend>
+          </br>
+          <label for ="txtCodigo">Codigo</label><br/>
+          <input type="text" size="15" maxlength="15" id="txtCodigo" name="codigo" value=""/>
+	  </br>
+          <label for="txtFechaing">Fecha de ingreso</label><br/>
+          <input type="date" id="txtFechaing" name="fechaing" max="2014-9-1">
+          </br>
+          <label for ="txtSegsocial">Seguridad Social</label><br/>
+          <input type="text" size="15" maxlength="15" id="txtSegsocial" name="segsocial" value=""/>
+          </br>
+	  <label for ="txtNumero">Numero</label><br/>
+          <input type="number" id="txtNumero" name="numero" value=""/>
+	  </br>
+      </fieldset>
+      </br></br>
+      <fieldset>
+        <legend>Personal</legend>
+	</br>
+	<label for ="txtNombre">Nombre</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtNombre" name="nombre" value=""/>
+        </br>
+	<label for ="txtApp">Apellido Paterno</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtApp" name="App" value=""/>
+        </br>
+        <label for ="txtApm">Apellido Materno</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtApm" name="Apm" value=""/>
+        </br>
+        <label for ="fileFoto">Foto</label><br/>
+        <input type="file" id="fileFoto" name="Foto" />
+        </br>
+        </br>
+        <input type="radio" id="Hombre" name="hombre" value=""> 
+        <label for="Hombre">Hombre</label>
+        <input type="radio" id="Mujer" name="mujer" value=""> 
+        <label for="Mujer">Mujer</label><br/>
+	</br>
+        <label for="EstCiv">Estado Civil</label></br>
+	<select id="EstCiv" name="estciv">
+		<option value="1" selected="selected">Soltero</option>
+		<option value="2">Casado</option>
+		<option value="3">Divorciado</option>
+		<option value="4">Viudo</option>
+	</select>
+	</br>
+      </fieldset>
+      </br></br>
+      <fieldset>
+        <legend>Nacimiento</legend>
+        </br>
+	<label for="txtFechanac">Fecha de nacimiento</label><br/>
+        <input type="date" id="txtFechanac" name="fechanac" max="2010-9-1">
+        </br>
+	</br>
+        <label for="Pais">Pais</label></br>
+	<select id="Pais" name="pais">
+		<option value="1" selected="selected">Mexico</option>
+		<option value="2">Rusia</option>
+		<option value="3">Alemania</option>
+		<option value="4">Israel</option>
+		<option value="5">Canada</option>
+	</select>
+      </fieldset>
+      </br></br>
+      <fieldset>
+        <legend>Contacto</legend>
+	</br>
+	<label for ="txtTitulo">Titulo</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtTitulo" name="titulo" value=""/>
+        </br>
+	<label for ="txtCurp">CURP</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtCurp" name="curp" value=""/>
+        </br>
+	<label for ="txtRfc">RFC</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtRfc" name="rfc" value=""/>
+        </br>
+	<label for ="txtTelefono">Telefono</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtTelefono" name="telefono" value=""/>
+        </br>
+	<label for ="txtCelular">Celular</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtCelular" name="celular" value=""/>
+        </br>
+	<label for ="txtDomicilio">Domicilio</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtDomicilio" name="domicilio" value=""/>
+        </br>
+	<label for ="txtColonia">Colonia</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtColonia" name="colonia" value=""/>
+        </br>
+	<label for ="txtCodigoP">Codigo Postal</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtCodigoP" name="codigop" value=""/>
+        </br>
+	<label for="Paisc">Pais</label></br>
+	<select id="Paisc" name="paisc">
+		<option value="1" selected="selected">Mexico</option>
+		<option value="2">Rusia</option>
+		<option value="3">Alemania</option>
+		<option value="4">Israel</option>
+		<option value="5">Canada</option>
+	</select>
+	<label for ="txtRadio">Radio</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtRadio" name="radio" value=""/>
+        </br>
+	<label for ="txtCorreo">Correo</label><br/>
+        <input type="text" size="15" maxlength="15" id="txtCorreo" name="correo" value=""/>
+        </br>
+	<label for ="txtObservaciones">Observaciones</label><br/>
+        <textarea rows="5" cols="70">      </textarea>
+        </br>
+      </fieldset>
+      </br></br>
+      <input type="submit" name="cancelar" value="Cancelar" />
+      <input type="submit" name="agregar" value="Agregar" />
+      </br></br>
+    </fieldset>
+    </form>
+    </div>
+  </body>
+</html>
